@@ -16,7 +16,7 @@ public class ConfigController {
     @NacosValue(value = "${useLocalCache:false}", autoRefreshed = true)
     private boolean useLocalCache;
 
-    @NacosValue(value = "${name:赵云涛}", autoRefreshed = true)
+    @NacosValue(value = "${name:nacos}", autoRefreshed = true)
     private String  name;
 
     @RequestMapping(value = "/get", method = RequestMethod.GET)
